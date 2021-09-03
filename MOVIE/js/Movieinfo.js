@@ -97,7 +97,7 @@ parent[0].innerHTML = `
 
     </div>
     <footer>
-        Copyright © 2021-2021 Hira's Devlopers. All Rights Reserved.
+        Copyright © 2021-2021 Kinshuk. All Rights Reserved.
     </footer>
 `;
 let genres_area = document.getElementById('genres_Area');

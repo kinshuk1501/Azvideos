@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+body {
+    background-color: #DDC8C4;
+    margin: 0;
+    color: #EFF9F0;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #533C44;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar h1 span {
+    color: #13070C;
+}
+
+.navbar input {
+    background-color: #DDC8C4;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.movie_container {
+    background-color: #9F827F;
+    padding: 2%;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.movie_card {
+    width: 20%;
+    background-color: #13070C;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.movie_card img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.movie_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5%;
+    justify-content: space-evenly;
+}
+
+.rating {
+    background-color: #DDC8C4;
+    color: #13070C;
+    padding: 1%;
+    margin: 2%;
+}
+
+.movie_info h1 {
+    margin: 2%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movie_info h1:hover {
+    white-space: pre-line;
+    overflow: none;
+    text-overflow: clip;
+}
+
+@media screen and (max-width: 500px) {
+    .movie_info h1,
+    .movie_info h2 {
+        font-size: smaller;
+    }
+    .movie_card img {
+        border-radius: 5px;
+    }
+    .movie_card {
+        border-radius: 5px;
+    }
+}
